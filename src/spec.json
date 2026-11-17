@@ -1,0 +1,266 @@
+{
+  "title": "Gestione eventi e iscrizioni",
+  "description": "Agenda della biblioteca per consultare gli eventi culturali, verificare i posti disponibili e registrare le iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi in programma e delle disponibilità.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni registrate",
+          "value": "86"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le nuvole",
+          "12/06/2026",
+          "17:30",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio di carta blu",
+          "14/06/2026",
+          "16:00",
+          "Atelier Nubi",
+          "16",
+          "11",
+          "5"
+        ],
+        [
+          "Musiche del giardino",
+          "18/06/2026",
+          "18:00",
+          "Cortile Vela",
+          "30",
+          "30",
+          "0"
+        ],
+        [
+          "Storie in cerchio",
+          "21/06/2026",
+          "10:30",
+          "Sala Lumo",
+          "20",
+          "14",
+          "6"
+        ],
+        [
+          "Mappe immaginarie",
+          "25/06/2026",
+          "17:00",
+          "Atelier Nubi",
+          "18",
+          "18",
+          "0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "agenda-eventi",
+      "title": "Agenda eventi",
+      "description": "Esplora gli appuntamenti culturali e controlla i posti rimasti. La tabella supporta ricerca e filtri per data, luogo e disponibilità.",
+      "metrics": [
+        {
+          "label": "Prossimo evento",
+          "value": "12 giugno"
+        },
+        {
+          "label": "Posti totali",
+          "value": "108"
+        },
+        {
+          "label": "Posti rimasti",
+          "value": "34"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture tra le nuvole",
+          "12/06/2026",
+          "17:30",
+          "Sala Lumo",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio di carta blu",
+          "14/06/2026",
+          "16:00",
+          "Atelier Nubi",
+          "16",
+          "11",
+          "5"
+        ],
+        [
+          "Musiche del giardino",
+          "18/06/2026",
+          "18:00",
+          "Cortile Vela",
+          "30",
+          "30",
+          "0"
+        ],
+        [
+          "Storie in cerchio",
+          "21/06/2026",
+          "10:30",
+          "Sala Lumo",
+          "20",
+          "14",
+          "6"
+        ],
+        [
+          "Mappe immaginarie",
+          "25/06/2026",
+          "17:00",
+          "Atelier Nubi",
+          "18",
+          "18",
+          "0"
+        ],
+        [
+          "Poesia a piccoli passi",
+          "28/06/2026",
+          "11:00",
+          "Sala Lumo",
+          "22",
+          "12",
+          "10"
+        ],
+        [
+          "Disegni in controluce",
+          "02/07/2026",
+          "16:30",
+          "Atelier Nubi",
+          "14",
+          "9",
+          "5"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Registra le adesioni agli eventi e consulta l'elenco filtrabile delle iscrizioni. Le disponibilità sono aggiornate in base alla capienza dell'evento.",
+      "metrics": [
+        {
+          "label": "Iscrizioni attive",
+          "value": "86"
+        },
+        {
+          "label": "In attesa",
+          "value": "4"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "86"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Numero posti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi Rame",
+          "Letture tra le nuvole",
+          "03/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Cedro",
+          "Laboratorio di carta blu",
+          "04/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Lumo Salice",
+          "Musiche del giardino",
+          "05/06/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Nubi Opale",
+          "Storie in cerchio",
+          "06/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Quarzo",
+          "Mappe immaginarie",
+          "06/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Lumo Ambra",
+          "Poesia a piccoli passi",
+          "07/06/2026",
+          "1",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data iscrizione",
+        "Numero posti",
+        "Stato"
+      ]
+    }
+  ]
+}
